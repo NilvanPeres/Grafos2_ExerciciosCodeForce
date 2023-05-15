@@ -1,3 +1,4 @@
+""" Usando Kruskal """
 class Edge:
     def __init__(self, a, b, cost):
         self.a = a
@@ -68,3 +69,65 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+""" Usando Prim """
+
+# import heapq
+
+# class Edge:
+#     def __init__(self, a, b, cost):
+#         self.a = a
+#         self.b = b
+#         self.cost = cost
+
+#     def __lt__(self, other):
+#         return self.cost < other.cost
+
+# def prim(edges, m):
+#     total_cost = 0
+#     visited = [False] * m
+#     min_heap = []
+    
+#     start_node = 0  # Escolha o nó inicial arbitrariamente
+    
+#     visited[start_node] = True
+    
+#     for edge in edges[start_node]:
+#         heapq.heappush(min_heap, edge)
+    
+#     while min_heap:
+#         edge = heapq.heappop(min_heap)
+#         if visited[edge.b]:
+#             continue
+        
+#         visited[edge.b] = True
+#         total_cost += edge.cost
+        
+#         for next_edge in edges[edge.b]:
+#             if not visited[next_edge.b]:
+#                 heapq.heappush(min_heap, next_edge)
+    
+#     return total_cost
+
+# def solve():
+#     while True:
+#         m, n = map(int, input().split())
+#         if m == 0 and n == 0:
+#             break
+        
+#         edges = [[] for _ in range(m)]
+        
+#         for _ in range(n):
+#             a, b, cost = map(int, input().split())
+#             edges[a].append(Edge(a, b, cost))
+#             edges[b].append(Edge(b, a, cost))
+        
+#         saved_cost = sum(edge.cost for edge_list in edges for edge in edge_list) // 2 - prim(edges, m)
+#         print(f'\n{saved_cost}')
+
+# def main():
+#     solve()
+
+# if __name__ == '__main__':
+#     main()
