@@ -1,6 +1,6 @@
 # Link do problema:
 
-- [Help the old King](https://www.spoj.com/problems/ULM09/)
+- [Help the old King](https://www.spoj.com/problems/IITKWPCG/)
 
 # Explicação do desafio:
 

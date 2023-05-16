@@ -1,4 +1,4 @@
-# Desafios Code Force
+# Desafios Spoj
 
 **Conteúdo da Disciplina**: Grafos 1<br>
 
@@ -29,14 +29,14 @@ Esse projeto busca aplicar os conhecimentos adquiridos na matéria de Projeto de
 - Logs de submissão:
 ![LogsSubmissao](./Kruskal/assets/LogDarkRoads.png)
 
-### Exercício 3 - [Help the old King](https://www.spoj.com/problems/ULM09/)
+### Exercício 3 - [Help the old King](https://www.spoj.com/problems/IITKWPCG/)
 
 
 - Descrição do problema:
-![Help the old King](./assets/HelpTheOldKing.png)
+![Help the old King](./Prim/assets/HelpTheOldKing.png)
 
 - Logs de submissão:
-![LogsSubmissao](./assets/HelpTheOldKingLog.png)
+![LogsSubmissao](./Prim/assets/HelpTheOldKingLog.png)
 
 
 
@@ -59,7 +59,7 @@ Para submeter as resoluções dos exercicíos basta seguir os passos abaixo:
 
 ## Outros 
 O vídeo pode ser acessado através do
-[link]()
+[link](https://youtu.be/IGswi-Q-gBQ)
 
 
 
