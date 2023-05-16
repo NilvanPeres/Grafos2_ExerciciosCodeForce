@@ -8,4 +8,4 @@
 
 # Logs de submissões
 
-#![LogsSubmissao](./assets/LogDarkRoads.png)
+#![LogsSubmissao](./assets/HelpTheOldKingLog.png)
