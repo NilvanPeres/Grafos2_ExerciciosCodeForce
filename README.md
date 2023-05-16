@@ -1,44 +1,65 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Desafios Code Force
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Conteúdo da Disciplina**: Grafos 1<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 170122468  |  Nilvan Peres Costa |
+| -  |  - |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+Esse projeto busca aplicar os conhecimentos adquiridos na matéria de Projeto de Algoritmos lecionada pelo professor Maurícion Serrano, através da resolução de problemas do site Code Force.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+### Exercício 1 - [Easy Dijkstra Problem](https://www.spoj.com/problems/EZDIJKST/)
+
+- Descrição do problema:
+![Easy Dijkstra Problem](./Dijkstra/assets/EasyDijkstraProblem.png)
+
+- Logs de submissão:
+#![LogsSubmissao](./Dijkstra/assets/DisLog.png)
+
+### Exercício 2 - [Dark rodes](https://www.spoj.com/problems/ULM09/)
+- Descrição do problema:
+![https://www.spoj.com/problems/ULM09/](./Kruskal/assets/DarkRoads.png)
+
+
+- Logs de submissão:
+![LogsSubmissao](./Kruskal/assets/LogDarkRoads.png)
+
+### Exercício 3 - [Help the old King](https://www.spoj.com/problems/ULM09/)
+
+
+- Descrição do problema:
+![Help the old King](./assets/HelpTheOldKing.png)
+
+- Logs de submissão:
+![LogsSubmissao](./assets/HelpTheOldKingLog.png)
+
+
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
+**Linguagem**: Python 3<br>
 **Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Pré-requisitos**: Python 3.8 ou superior<br>
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+
+Para submeter as resoluções dos exercicíos basta seguir os passos abaixo:
+
+1. Acesse a pasta do exercício desejado;
+
+2. No arquivo 'explicacao.md' clique em link do problema;
+
+3. O código fonte do problema que possui a extensão '.py';
+
+4. No site do spoj, seleciona a linguagem Python 3.9.5 e selecione o arquivo com o código fonte, ou cole diretamente o código onde o site indica;
 
 ## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+O vídeo pode ser acessado através do
+[link]()
 
 
 
